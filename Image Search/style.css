@@ -1,0 +1,8 @@
+*{margin: 0;padding: 0;font-family: sans-serif;box-sizing: border-box;}
+body{background: #000;display: flex;justify-content: center;align-items: center;height: 100vh;}
+.container{width: 300px;height: 600px;background: #fff;border-radius: 8px;padding: 20px;overflow: hidden;overflow-y: scroll;}
+::-webkit-scrollbar{display: none;}
+.container form input{padding: 10px;width: 100%;outline: none;}
+.container .products{display: flex;flex-direction: column;}
+.container .products .product-items{display: flex;flex-direction: row;align-items: center; padding-top: 20px;}
+.container .products .product-items img{width: 40px;margin-right: 3%;}

@@ -1,0 +1,4 @@
+*{margin: 0;padding: 0;font-family: sans-serif;box-sizing: border-box;color: #fff;}
+.container{display: flex;align-items: center;justify-content: center;width: 100%;height: 100vh;background: #000;position: fixed;}
+.container h2{font-size: 64px;transform: translateY(100%);}
+.slider{position: fixed;top: 0;left: 0;background: #18181A;width: 100%;height: 100vh;transform: translateY(100%);}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort without use of sort function</title>
+</head>
+<body>
+    <script>
+      let ourArray=[20,16,24,30,110,99];
+      let largestNumber=ourArray[0];
+      let secondLargestNumber=ourArray[0];
+
+      for(let i=0; i<ourArray.length; i++){
+        if(ourArray[i]>largestNumber){
+            secondLargestNumber=largestNumber;
+            largestNumber=ourArray[i];
+        }else if(ourArray[i]>secondLargestNumber){
+            secondLargestNumber=ourArray[i];
+            console.log(secondLargestNumber)
+        }
+      }
+
+    </script>
+</body>
+</html>
